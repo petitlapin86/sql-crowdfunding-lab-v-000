@@ -1,16 +1,16 @@
-CREATE TABLE project (id INTEGER PRIMARY KEY,
+CREATE TABLE project(id INTEGER PRIMARY KEY,
 title TEXT,
 category TEXT,
 funding_goal INTEGER,
 start_date TEXT,
 end_date TEXT);
 
-CREATE TABLE users (id INTEGER PRIMARY KEY,
+CREATE TABLE users(id INTEGER PRIMARY KEY,
 name TEXT,
 age INTEGER,);
 
 
-CREATE TABLE pledges (id INTEGER PRIMARY KEY,
+CREATE TABLE pledges(id INTEGER PRIMARY KEY,
   amount NUMERIC,
   user_id INTEGER,
   project_id INTEGER);
